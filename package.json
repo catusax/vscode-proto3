@@ -91,6 +91,15 @@
               },
               "default": [],
               "description": "Command line options for protoc"
+            },
+            "formatter": {
+              "type": "string",
+              "default": "clang-format",
+              "enum": [
+                "clang-format",
+                "buf"
+              ],
+              "description": "formatter for .proto file"
             }
           }
         }

@@ -26,5 +26,17 @@
         "body": [
             "[ (gorm.field).tag = {index : \"\"} ]"
         ]
+    },
+    "gorm_model": {
+        "scope": "proto3",
+        "prefix": [
+            "model"
+        ],
+        "body": [
+            "uint32 id = 14 [ (gorm.field) = {tag : {primary_key : true}} ];",
+            "google.protobuf.Timestamp deleted_at = 21 [ (google.api.field_visibility).restriction = \"INTERNAL\" ];",
+            "google.protobuf.Timestamp created_at = 22 [ (google.api.field_visibility).restriction = \"INTERNAL\" ];",
+            "google.protobuf.Timestamp updated_at = 23 [ (google.api.field_visibility).restriction = \"INTERNAL\" ];"
+        ]
     }
 }

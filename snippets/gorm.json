@@ -1,0 +1,30 @@
+{
+    "gorm_ormable": {
+        "scope": "proto3",
+        "prefix": [
+            "ormable"
+        ],
+        "body": [
+            "option (gorm.opts) = {ormable: true};"
+        ]
+    },
+    "gorm_primary_key": {
+        "scope": "proto3",
+        "prefix": [
+            "primary_key"
+        ],
+        "body": [
+            "[(gorm.field).tag = {primary_key: true}]"
+        ]
+    },
+    "gorm_index": {
+        "scope": "proto3",
+        "prefix": [
+            "idx",
+            "index"
+        ],
+        "body": [
+            "[ (gorm.field).tag = {index : \"\"} ]"
+        ]
+    }
+}

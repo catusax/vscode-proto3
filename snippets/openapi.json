@@ -1,0 +1,32 @@
+{
+    "openapiv2_operation": {
+        "scope": "proto3",
+        "prefix": [
+            "oapiop",
+            "openapiv2_operation"
+        ],
+        "body": [
+            "option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_operation) = {",
+            "   description: \"\";",
+            "   summary: \"${1}\";",
+            "   tags: \"\";",
+            "};"
+        ]
+    },
+    "openapiv2_swagger_info": {
+        "scope": "proto3",
+        "prefix": [
+            "oapiswg",
+            "openapiv2_swagger"
+        ],
+        "body": [
+            "option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_swagger) = {",
+            "    info: {",
+            "       title: \"\";",
+            "       version: \"1.0\";",
+            "       description: \"\";",
+            "   };",
+            "};"
+        ]
+    }
+}

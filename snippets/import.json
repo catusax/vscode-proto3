@@ -1,0 +1,72 @@
+{
+    "import_google_api_annotations": {
+        "scope": "proto3",
+        "prefix": [
+            "impgapi",
+            "import_goole_api"
+        ],
+        "body": [
+            "import \"google/api/annotations.proto\";"
+        ]
+    },
+    "import_empty_type": {
+        "scope": "proto3",
+        "prefix": [
+            "impempty",
+            "import_empty"
+        ],
+        "body": [
+            "import \"google/protobuf/empty.proto\";"
+        ]
+    },
+    "import_field_mask_type": {
+        "scope": "proto3",
+        "prefix": [
+            "impfm",
+            "import_field_mask"
+        ],
+        "body": [
+            "import \"google/protobuf/field_mask.proto\";"
+        ]
+    },
+    "import_timestamp_type": {
+        "scope": "proto3",
+        "prefix": [
+            "impts",
+            "import_timestamp"
+        ],
+        "body": [
+            "import \"google/protobuf/timestamp.proto\";"
+        ]
+    },
+    "import_gorm_option": {
+        "scope": "proto3",
+        "prefix": [
+            "impgorm",
+            "import_gorm"
+        ],
+        "body": [
+            "import \"options/gorm.proto\";"
+        ]
+    },
+    "import_openapiv2_option": {
+        "scope": "proto3",
+        "prefix": [
+            "impoapi",
+            "import_openapiv2"
+        ],
+        "body": [
+            "import \"protoc-gen-openapiv2/options/annotations.proto\";"
+        ]
+    },
+    "import_validate": {
+        "scope": "proto3",
+        "prefix": [
+            "impvld",
+            "import_validate"
+        ],
+        "body": [
+            "import \"validate/validate.proto\";"
+        ]
+    }
+}

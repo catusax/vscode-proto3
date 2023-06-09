@@ -68,6 +68,18 @@
       {
         "language": "proto3",
         "path": "./snippets/google-api.json"
+      },
+      {
+        "language": "proto3",
+        "path": "./snippets/openapi.json"
+      },
+      {
+        "language": "proto3",
+        "path": "./snippets/import.json"
+      },
+      {
+        "language": "proto3",
+        "path": "./snippets/gorm.json"
       }
     ],
     "configuration": {

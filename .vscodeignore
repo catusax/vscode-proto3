@@ -1,0 +1,14 @@
+src
+test
+node_modules
+example
+.husky
+.vscode
+!out/main.js
+out
+
+tsconfig.json
+vsc-extension-quickstart.md
+.prettierrc
+.gitignore
+yarn.lock
